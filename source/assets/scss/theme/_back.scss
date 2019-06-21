@@ -1,0 +1,29 @@
+/* Back to top button */
+.back-to-top {
+    display: inline-block;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    background: #000;
+    color: #fff;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 25%;
+    transition: background 0.5s;
+    z-index: 99;
+    opacity: 0.7;
+}
+
+.back-to-top i {
+    padding-top: 10px;
+    color: #fff;
+}
+
+@media (max-width: 768px) {
+    .back-to-top {
+        bottom: 15px;
+    }
+}

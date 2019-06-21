@@ -1,0 +1,23 @@
+{% for page in site.servisler %}
+<section id="{{ page.page_id }}"
+    class="features d-flex justify-content-center align-items-center {% cycle '', 'bg-lime-dark text-light' %}">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 my-auto">
+                <div class="intro {% cycle ' text-md-right', '' %}">
+                    <h3 class="sub-title">{{ page.title }}</h3>
+                    {{ page.content }}
+                    <a class="btn btn-xl btn-{% cycle 'github', 'secondary' %} px-5 js-scroll-trigger"
+                        href="#{{ page.next_item }}">Daha Fazla</a>
+                </div>
+            </div>
+            <div class="col-md-7{% cycle '', ' order-md-first' %}">
+                <figure class="figure">
+                    <img class="figure-img img-thumbnail img-fluid shadow"
+                        src="/assets/images/servisler/{{ page.page_id }}.jpg" alt="{{ page.title }}">
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
+{% endfor %}

@@ -1,0 +1,33 @@
+---
+layout: base
+---
+<!-- Home Header -->
+<header class="masthead text-center text-white d-flex" {% if page.background %}
+  style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')" {% endif %}>
+  <div class="overlay"></div>
+  <div class="container my-auto">
+    <div class="row">
+      <div class="col-lg-12 mx-auto">
+        <div class="site-heading">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-2x fa-star"></i>
+          <i class="fa fa-3x fa-star"></i>
+          <i class="fa fa-2x fa-star"></i>
+          <i class="fa fa-star"></i>
+          <h1 class="m-3">Ören Adra Club</h1>
+          <span class="desc mb-3">Apart Tatil Evleri</span>
+          <p class="subheading text-faded my-5">Hamaklarımızda Dinlenmeye ve Mangal Yapmaya,</br>
+            En Temiz Oksijeni Solumaya Doyamayacaksınız...!</p>
+          <a class="btn btn-xl btn-github mt-5 px-5 js-scroll-trigger" href="#bisiklet">Siteye
+            Devam Et</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+
+{% include servisler.html %}
+{% include reservation.html %}

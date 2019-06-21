@@ -1,0 +1,28 @@
+title:             Clean Bootstrap
+description:       Free & Premium Bootstrap Resources
+email:             info@statixdesign.com
+author:            Statix Design
+url:               "http://statixdesign.com"
+
+source: src
+
+# Social Profiles
+twitter_username:  cleanbootstrap
+facebook_username: cleanbootstrap
+instagram_username: cleanbootstrap
+
+# Build settings
+markdown:          kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-redirect-from
+  - jekyll-tidy
+
+exclude:
+  - package.json
+  - gulpfile.js
+
+collections:
+  changelog:
+    output: false

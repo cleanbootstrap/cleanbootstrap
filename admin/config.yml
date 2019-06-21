@@ -1,0 +1,12 @@
+backend:
+  name: github
+  repo: adraclub/adraclub.github.io # your GitHub username and repository name, separated by a slash
+  branch: master # optional, default value is "master"
+media_folder: 'assets/images'
+media_folder: 'assets/images/tesisimiz'
+collections:
+  - name: 'changelog'
+    label: 'Changelog'
+    folder: '_changelog/'
+    fields:
+      - { name: Title }

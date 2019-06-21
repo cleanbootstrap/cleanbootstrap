@@ -1,0 +1,131 @@
+/* Header */
+#header {
+    // background: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 997;
+    color: #fff;
+    @include transition-all;
+
+    .navbar {
+        padding: 1rem;
+        @include transition-all;
+
+        .navbar-toggler {
+            border: none;
+
+        }
+
+        .navbar-toggler-icon {
+            color: #fff;
+            font-weight: 900;
+        }
+
+        .navbar-brand {
+            font-size: 1.8rem;
+            font-weight: 900;
+            @include transition-all;
+            text-shadow: 1px 2px 4px #000000;
+        }
+
+        ul.navbar-nav {
+            li.nav-item {
+                a.nav-link {
+                    color: #fff;
+                    text-shadow: 1px 2px 4px #000000;
+                }
+            }
+        }
+    }
+
+    .navbar-dark {
+        background: rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-collapse {
+        ul li {
+            padding: 0 0 5px;
+        }
+    }
+}
+
+#header.header-scrolled {
+    .navbar {
+        padding: 0.5rem 1rem;
+
+        .navbar-brand {
+            font-size: 1.5rem;
+            font-weight: 700;
+        }
+    }
+
+    .navbar-dark {
+        background: rgba(0, 0, 0, 0.7);
+    }
+}
+
+.header-top {
+    font-size: 0.85rem;
+    font-weight: 500;
+    padding:8px;
+    a{
+      color: $gray-500;
+      text-decoration: none;
+
+      &:hover {
+        color: $gray-100;
+      }
+    }
+    @media(max-width:480px){
+        a{
+            font-size: 1.2rem;
+        }
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+    ul li{
+      display:inline-block;
+      margin-right: 15px;
+    }
+    .header-top-left{
+      text-align:left;
+      i{
+        @include transition-all();
+      }
+      a{
+        margin-right:10px;
+      }
+      a:hover{
+        @include transition-all();
+        i{
+          color: $gray-100;
+        }
+      }
+    }
+
+    .header-top-right{
+      text-align: right;
+      a{
+          margin-right:15px;
+        .fa{
+          display:none;
+          font-weight:700;
+        }
+      }
+
+      @media(max-width:480px){
+        a{
+            .fa{
+            display:inline-block;
+            }
+            .text{
+            display:none;
+            }
+        }
+      }
+}
+}
