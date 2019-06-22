@@ -12,6 +12,10 @@
         "template"
     ],
     "homepage": "https://cleanbootstrap.com",
+    "scripts": {
+        "build": "bundle exec jekyll build",
+        "serve": "bundle exec jekyll serve"
+    },
     "bugs": {
         "url": "https://github.com/cleanbootstrap/cleanbootstrap/issues",
         "email": "feedback@statixdesign.com"
