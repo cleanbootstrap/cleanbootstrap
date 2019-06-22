@@ -11,13 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://statixdesign.com/template-overviews/jekyll-hotel-adraclub",
-    "scripts": {
-        "build": "bundle exec jekyll build",
-        "serve": "bundle exec jekyll serve"
-    },
+    "homepage": "https://cleanbootstrap.com",
     "bugs": {
-        "url": "https://github.com/adraclub/jekyll-hotel-adraclub/issues",
+        "url": "https://github.com/cleanbootstrap/cleanbootstrap/issues",
         "email": "feedback@statixdesign.com"
     },
     "license": "MIT",
