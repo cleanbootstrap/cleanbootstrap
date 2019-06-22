@@ -28,7 +28,7 @@ const banner = ['/*!\n',
 
 // Clean vendor
 function clean() {
-  return del(["./src/assets/lib/"]);
+  return del(["./assets/lib/"]);
 }
 
 // Bring third party dependencies from node_modules into vendor directory
@@ -38,47 +38,47 @@ function modules() {
   var lib_jquery = gulp.src([
     '../../node_modules/jquery/LICENSE*',
     '../../node_modules/jquery/dist/*.min.*'
-  ]).pipe(gulp.dest('./src/assets/lib/jquery'))
+  ]).pipe(gulp.dest('./assets/lib/jquery'))
 
   // Bootstrap
   var lib_bootstrap = gulp.src([
     '../../node_modules/bootstrap/LICENSE*',
     '../../node_modules/bootstrap/dist/js/*.min.*'
-  ]).pipe(gulp.dest('./src/assets/lib/bootstrap'))
+  ]).pipe(gulp.dest('./assets/lib/bootstrap'))
 
   // Tabler UI SCSS
   var lib_tabler = gulp.src([
     '../../node_modules/tabler-ui/LICENSE*'
-  ]).pipe(gulp.dest('./src/assets/lib/tabler-ui'))
+  ]).pipe(gulp.dest('./assets/lib/tabler-ui'))
 
   var lib_tabler_scss = gulp.src([
     '../../node_modules/tabler-ui/src/source/assets/scss/**/*'
-  ]).pipe(gulp.dest('./src/assets/scss/tabler-ui'))
+  ]).pipe(gulp.dest('./assets/scss/tabler-ui'))
 
   // Feather Icons
   var lib_feather = gulp.src([
     '../../node_modules/feather-icons/LICENSE*',
     '../../node_modules/feather-icons/dist/feather.min.*'
-  ]).pipe(gulp.dest('./src/assets/lib/feather'))
+  ]).pipe(gulp.dest('./assets/lib/feather'))
 
   var lib_feather_icons = gulp.src([
     '../../node_modules/feather-icons/dist/icons/*'
-  ]).pipe(gulp.dest('./src/assets/lib/feather/icons'))
+  ]).pipe(gulp.dest('./assets/lib/feather/icons'))
 
   // Font Awesome
   var lib_fontawesome = gulp.src([
     '../../node_modules/font-awesome/css/**/*'
-  ]).pipe(gulp.dest('./src/assets/lib/font-awesome'))
+  ]).pipe(gulp.dest('./assets/lib/font-awesome'))
 
   var lib_fontawesome_fonts = gulp.src([
     '../../node_modules/font-awesome/fonts/**/*'
-  ]).pipe(gulp.dest('./src/assets/lib/font-awesome/fonts'))
+  ]).pipe(gulp.dest('./assets/lib/font-awesome/fonts'))
 
   // JQuery Easing
   var lib_easing = gulp.src([
     '../../node_modules/jquery.easing/LICENSE*',
     '../../node_modules/jquery.easing/*.min.js'
-  ]).pipe(gulp.dest('./src/assets/lib/easing'))
+  ]).pipe(gulp.dest('./assets/lib/easing'))
 
   // Simplelightbox
   var lib_simplelightbox = gulp.src([
@@ -86,24 +86,24 @@ function modules() {
     '../../node_modules/simplelightbox/dist/*.min.css',
     '../../node_modules/simplelightbox/dist/*.min.js',
     '../../node_modules/simplelightbox/dist/*.scss'
-  ]).pipe(gulp.dest('./src/assets/lib/simple-lightbox'))
+  ]).pipe(gulp.dest('./assets/lib/simple-lightbox'))
 
   // Simple Parallax JS
   var lib_simplelightbox = gulp.src([
     '../../node_modules/simple-parallax-js/LICENSE*',
     '../../node_modules/simple-parallax-js/dist/*.min.js'
-  ]).pipe(gulp.dest('./src/assets/lib/simple-parallax'))
+  ]).pipe(gulp.dest('./assets/lib/simple-parallax'))
 
   // Waypoints
   var lib_waypoints = gulp.src([
     '../../node_modules/waypoints/licenses.txt',
     '../../node_modules/waypoints/lib/jquery.waypoints.min.js'
-  ]).pipe(gulp.dest('./src/assets/lib/waypoints'))
+  ]).pipe(gulp.dest('./assets/lib/waypoints'))
 
   // Waypoints Shortcuts
   var lib_waypoints_shortcuts = gulp.src([
     '../../node_modules/waypoints/lib/shortcuts/*.min.js'
-  ]).pipe(gulp.dest('./src/assets/lib/waypoints/shortcuts'))
+  ]).pipe(gulp.dest('./assets/lib/waypoints/shortcuts'))
 
   // Vendors
   return merge(
@@ -123,7 +123,7 @@ function modules() {
 }
 
 function styles() {
-  var tabler_ui = gulp.src('./src/assets/scss/bundle.scss', { base: '.' })
+  var tabler_ui = gulp.src('./assets/scss/bundle.scss', { base: '.' })
     .pipe(sass({
       precision: 8,
       outputStyle: 'expanded'
@@ -133,13 +133,13 @@ function styles() {
       cascade: false
     }))
     .pipe(rename('style.css'))
-    .pipe(gulp.dest('./src/assets/css/'))
+    .pipe(gulp.dest('./assets/css/'))
 
     .pipe(rtlcss())
     .pipe(rename('style.rtl.css'))
-    .pipe(gulp.dest('./src/assets/css/'));
+    .pipe(gulp.dest('./assets/css/'));
 
-  var theme = gulp.src('./src/assets/scss/theme/theme.scss', { base: '.' })
+  var theme = gulp.src('./assets/scss/theme/theme.scss', { base: '.' })
     .pipe(sass({
       precision: 8,
       outputStyle: 'expanded'
@@ -149,11 +149,11 @@ function styles() {
       cascade: false
     }))
     .pipe(rename('theme.css'))
-    .pipe(gulp.dest('./src/assets/css/'))
+    .pipe(gulp.dest('./assets/css/'))
 
     .pipe(rtlcss())
     .pipe(rename('theme.rtl.css'))
-    .pipe(gulp.dest('./src/assets/css/'));
+    .pipe(gulp.dest('./assets/css/'));
 
   return merge(
     tabler_ui,
@@ -164,7 +164,7 @@ function styles() {
 // CSS task
 function css() {
   return gulp
-    .src("./src/assets/scss/theme.scss")
+    .src("./assets/scss/theme.scss")
     .pipe(plumber())
     .pipe(sass({
       outputStyle: "expanded",
@@ -178,12 +178,12 @@ function css() {
     .pipe(header(banner, {
       pkg: pkg
     }))
-    .pipe(gulp.dest("./src/assets/css"))
+    .pipe(gulp.dest("./assets/css"))
     .pipe(rename({
       suffix: ".min"
     }))
     .pipe(cleanCSS())
-    .pipe(gulp.dest("./src/assets/css"))
+    .pipe(gulp.dest("./assets/css"))
   // .pipe(browsersync.stream());
 }
 
@@ -191,8 +191,8 @@ function css() {
 function js() {
   return gulp
     .src([
-      './src/assets/js/*.js',
-      '!./src/assets/js/*.min.js'
+      './assets/js/*.js',
+      '!./assets/js/*.min.js'
     ])
     .pipe(uglify())
     .pipe(header(banner, {
@@ -201,7 +201,7 @@ function js() {
     .pipe(rename({
       suffix: '.min'
     }))
-    .pipe(gulp.dest('./src/assets/js'))
+    .pipe(gulp.dest('./assets/js'))
   // .pipe(browsersync.stream());
 }
 
