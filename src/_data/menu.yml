@@ -1,4 +1,3 @@
 index:
-  name: Home
-  icon: fe fe-home
-  url: index.html
+  name: Themes
+  url: themes

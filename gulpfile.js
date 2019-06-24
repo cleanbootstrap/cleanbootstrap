@@ -13,6 +13,7 @@ const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const rtlcss = require('gulp-rtlcss');
 const uglify = require("gulp-uglify");
+const imagemin = require('gulp-imagemin');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -122,8 +123,8 @@ function modules() {
   );
 }
 
-function styles() {
-  var tabler_ui = gulp.src('./src/assets/scss/bundle.scss', { base: '.' })
+function style_tabler_ui() {
+  var style_tabler_ui = gulp.src('./src/assets/scss/bundle.scss', { base: '.' })
     .pipe(sass({
       precision: 8,
       outputStyle: 'expanded'
@@ -139,7 +140,13 @@ function styles() {
     .pipe(rename('style.rtl.css'))
     .pipe(gulp.dest('./src/assets/css/'));
 
-  var theme = gulp.src('./src/assets/scss/theme/theme.scss', { base: '.' })
+  return merge(
+    style_tabler_ui
+  );
+}
+
+function style_theme() {
+  var style_theme = gulp.src('./src/assets/scss/theme/theme.scss', { base: '.' })
     .pipe(sass({
       precision: 8,
       outputStyle: 'expanded'
@@ -156,8 +163,7 @@ function styles() {
     .pipe(gulp.dest('./src/assets/css/'));
 
   return merge(
-    tabler_ui,
-    theme
+    style_theme
   );
 }
 
@@ -205,28 +211,44 @@ function js() {
   // .pipe(browsersync.stream());
 }
 
+function img() {
+  gulp.src('./src/assets/img/**/*')
+    .pipe(imagemin([
+      imagemin.jpegtran({
+        interlaced: true,
+        progressive: true,
+        optimizationLevel: 9
+      })
+    ]))
+    .pipe(gulp.dest('./src/assets/img/'))
+}
+
 // Watch files
 function watchFiles() {
-  gulp.watch("./scss/**/*", css);
-  gulp.watch("./js/**/*", js);
-  gulp.watch("./**/*.html", browserSyncReload);
+  gulp.watch("./src/assets/scss/**/*", gulp.parallel(style_theme, style_tabler_ui));
+  // gulp.watch("./src/assets/js/**/*", js);
+  // gulp.watch("./src/**/*.html", browserSyncReload);
 }
 
 // gulp.task("default", gulp.parallel('vendor'));
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
+const styles = gulp.series(style_tabler_ui, style_theme);
 const build = gulp.series(vendor, gulp.parallel(css, js));
-const watch = gulp.series(build, gulp.parallel(watchFiles));
+const watch_files = gulp.series(watchFiles);
 // const jekyll = gulp.series(jekyll);
 
 // Export tasks
 exports.modules = modules;
+exports.style_tabler_ui = style_tabler_ui;
+exports.style_theme = style_theme;
 exports.styles = styles;
 exports.css = css;
 exports.js = js;
+exports.img = img;
 exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;
-exports.watch = watch;
+exports.watch_files = watch_files;
 exports.default = build;

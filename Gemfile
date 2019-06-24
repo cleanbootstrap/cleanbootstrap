@@ -4,9 +4,12 @@ gem "jekyll", "~> 3.8.5"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-tidy"
-  gem "jekyll-redirect-from"
   gem "jekyll-include-cache"
+  gem "jekyll-paginate"
+  gem "jekyll-redirect-from"
+  gem "jekyll-paginate"
+  gem "jekyll-sitemap"
+  gem "jekyll-tidy"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

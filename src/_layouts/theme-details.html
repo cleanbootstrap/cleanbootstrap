@@ -1,0 +1,59 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="card">
+                <a href="{{ site.baseurl }}/themes/{{ page.slug }}"><img class="card-img-top"
+                        src="{{ site.baseurl }}/assets/img/themes/{{ page.author.github_user | escape }}/{{ page.author.github_repo | escape }}/{{ page.author.github_repo | escape }}-preview.jpg"
+                        alt="{{ page.title | escape}}"></a>
+                <div class="card-body d-flex flex-column">
+                    {{ page.content }}
+
+                    <h5 class="mb-0">Features</h5>
+                    <ul class="mb-0">
+                        {% for feature in page.features %}
+                        <li>{{ feature }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-img-top"
+                    src="{{ site.baseurl }}/assets/img/themes/{{ page.author.github_user | escape }}/{{ page.author.github_repo | escape }}/{{ page.author.github_repo | escape }}-screenshot.jpg"
+                    alt="{{ page.title | escape}}">
+            </div>
+        </div>
+        <div class="col-lg-4 order-lg-1 mb-4">
+
+
+            <div class="card border-0 shadow mb-4">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">License</span>
+                        <span><i class="fa fa-balance-scale"></i> <a class="font-weight-bold"
+                                href="https://github.com/BlackrockDigital/{{page.slug}}/blob/master/LICENSE">MIT
+                                License</a></span>
+                    </div>
+                    <hr class="my-2">
+                    <div class="d-flex justify-content-between small">
+                        <span class="font-weight-bold">Author</span>
+                        <span>{{ page.author.name }}</span>
+                    </div>
+                    <hr class="my-2">
+
+                    <a href="{{ site.github_url }}" class="btn btn-block btn-dark bg-green-darkest mt-5">
+                        <i class="fa fa-desktop mr-2"></i>Preview
+                    </a>
+                    <a href="{{ site.github_url }}" class="btn btn-block btn-secondary">
+                        <i class="fe fe-download mr-2"></i>Download Now
+                    </a>
+                    <a href="{{ site.github_url }}" class="btn btn-block btn-dark">
+                        <i class="fe fe-github mr-2"></i>View on GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

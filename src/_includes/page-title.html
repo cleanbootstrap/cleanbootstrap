@@ -1,24 +1,25 @@
-<div class="page-header">
-	<h1 class="page-title">
-		{% if include.icon %}
-			<i class="{{ include.icon }} page-title-icon"></i>
+<section class="page-header bg-red-darker mt-0 pt-5">
+	<div class="container">
+		<div class="d-flex my-6 pt-11 py-6">
+			<div class="align-self-center">
+				<h1 class="page-title py-5">
+					{% if include.icon %}
+					<i class="{{ include.icon }} page-title-icon"></i>
+					{% endif %}
+					{% if page.page-title %}
+					{{ include.title | default: page.title }}
+					{% else %}
+					{{ site.title }}
+					{% endif %}
+				</h1>
+			</div>
+		</div>
+
+		{% if page.url != "/" %}
+		{% include breadcrumbs.html %}
 		{% endif %}
+	</div>
 
-		{{ include.title | default: page.title }}
-	</h1>
+	{% include overlay.html %}
 
-	{% if include.subtitle %}
-	<div class="page-subtitle">1 - 12 of 1713 photos</div>
-	{% endif %}
-
-	{% if include.options %}
-	<div class="page-options">{{ include.options }}</div>
-	{% endif %}
-
-	{% comment %}
-	<nav class="page-breadcrumb breadcrumb">
-		<a class="breadcrumb-item" href="javascript:void(0)">Library</a>
-		<span class="breadcrumb-item active">Cards</span>
-	</nav>
-	{% endcomment %}
-</div>
+</section>

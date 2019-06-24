@@ -1,0 +1,12 @@
+<nav class="page-breadcrumb breadcrumb bg-white rounded-0 px-5 mr-3 hidden-xs">
+    {% assign crumbs = page.url | remove:'/index.html' | split: '/' %}
+    <a class="breadcrumb-item" href="/">Home</a>
+    {% for crumb in crumbs offset: 1 %}
+    {% if forloop.last %}
+    <span class="breadcrumb-item active">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</span>
+    {% else %}
+    <a class="breadcrumb-item"
+        href="{% assign crumb_limit = forloop.index | plus: 1 %}{% for crumb in crumbs limit: crumb_limit %}{{ crumb | append: '/' }}{% endfor %}">{{ crumb | replace:'-',' ' | remove:'.html' | capitalize }}</a>
+    {% endif %}
+    {% endfor %}
+</nav>

@@ -1,0 +1,17 @@
+---
+layout: default
+title: Clean Bootstrap
+---
+
+<div class="container">
+
+    <div class="row row-cards row-deck">
+
+        {% for article in site.data.articles limit: 12 %}
+        <div class="col-sm-6 col-md-4">
+            {% include parts/theme-list.html article=article id=forloop.index type="image" %}
+        </div>
+        {% endfor %}
+
+    </div>
+</div>

@@ -11,8 +11,8 @@ $enable-print-styles: true;
 $font-family-base: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
 $font-family-monospace: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-$font-size-base: .9375rem;
-$font-size-lg: 1.125rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.25rem;
 $font-size-sm: .875rem;
 
 $line-height-base: 1.5;
@@ -48,18 +48,38 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 
-$blue: #467fcf;
-$azure: #45aaf2;
-$indigo: #6574cd;
-$purple: #a55eea;
-$pink: #f66d9b;
-$red: #cd201f;
-$orange: #fd9644;
-$yellow: #f1c40f;
-$lime: #7bd235;
-$green: #5eba00;
-$teal: #2bcbba;
-$cyan: #17a2b8;
+// $blue: #467fcf;
+// $azure: #45aaf2;
+// $indigo: #3F51B5;
+// $purple: #a55eea;
+// $pink: #e91e63;
+// $red: #f44336;
+// $orange: #FF5722;
+// $yellow: #f1c40f;
+// $lime: #7bd235;
+// $green: #5eba00;
+// $teal: #2bcbba;
+// $cyan: #17a2b8;
+
+$red: #F44336;
+$pink: #E91E63;
+$purple: #9C27B0;
+$deep-purple: #673AB7;
+$indigo: #3F51B5;
+$blue: #2196F3;
+$light-blue: #03A9F4;
+$cyan: #00BCD4;
+$teal: #009688;
+$green: #4CAF50;
+$light-green: #8BC34A;
+$lime: #CDDC39;
+$yellow: #FFEB3B;
+$amber: #FFC107;
+$orange: #FF9800;
+$deep-orange: #FF5722;
+$brown: #795548;
+$grey: #9E9E9E;
+$blue-grey: #607D8B;
 
 
 $text-muted: #9aa0ac;
@@ -70,28 +90,32 @@ $white: #fff;
 $primary: $blue;
 $secondary: $gray-600;
 $success: $green;
-$info: $azure;
+$info: $light-blue;
 $warning: $yellow;
 $danger: $red;
 $light: $gray-100;
 $dark: $gray-800;
 
 $colors: (
-	"blue": $blue,
-	"azure": $azure,
-	"indigo": $indigo,
-	"purple": $purple,
-	"pink": $pink,
-	"red": $red,
-	"orange": $orange,
-	"yellow": $yellow,
-	"lime": $lime,
-	"green": $green,
-	"teal": $teal,
-	"cyan": $cyan,
-	"white": $white,
-	"gray": $gray-600,
-	"gray-dark": $gray-800
+    "red": $red,
+    "pink": $pink,
+    "purple": $purple,
+    "deep-purple": $deep-purple,
+    "indigo": $indigo,
+    "blue": $blue,
+    "light-blue": $light-blue,
+    "cyan": $cyan,
+    "teal": $teal,
+    "green": $green,
+    "light-green": $light-green,
+    "lime": $lime,
+    "yellow": $yellow,
+    "amber": $amber,
+    "orange": $orange,
+    "deep-orange": $deep-orange,
+    "brown": $brown,
+    "grey": $grey,
+    "blue-grey": $blue-grey
 );
 
 $theme-colors: (
@@ -241,7 +265,7 @@ $sizes: (
 );
 
 // Footer
-$footer-bg: #fff;
+$footer-bg: $gray-900;
 
 // Dropdowns
 $dropdown-border-color: $border-color;

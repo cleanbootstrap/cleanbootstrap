@@ -1,0 +1,29 @@
+.page-header {
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.page-header .page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  z-index: 9999;
+}
+
+.page-header svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.page-header .breadcrumb {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}

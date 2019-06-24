@@ -1,24 +1,44 @@
+# General Settings
 title:             Clean Bootstrap
 description:       Free & Premium Bootstrap Resources
 email:             info@statixdesign.com
-author:            Statix Design
-url:               "http://statixdesign.com"
-
-source: src
+author:            
+  name: Statix Design
+  url:  https://statixdesign.com
 
 # Social Profiles
-twitter_username:  cleanbootstrap
-facebook_username: cleanbootstrap
+twitter_username: cleanbootstrap
+facebook_username:  cleanbootstrap
 instagram_username: cleanbootstrap
 
 # Build settings
-markdown:          kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-  - jekyll-redirect-from
-  - jekyll-tidy
-
+source: src
+markdown: kramdown
 exclude:
   - package.json
   - gulpfile.js
+
+# Server
+url:               https://cleanbootstrap.com
+enforce_ssl:       cleanbootstrap.com
+encoding:          UTF-8
+host:              localhost
+port:              4000
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jekyll-tidy
+
+# Pagination
+paginate: 10
+paginate_path: "/blog/page:num/"
+
+collections:
+  themes:
+    output:        true
+    permalink:     /:collection/:title/
