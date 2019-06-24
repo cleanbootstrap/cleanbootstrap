@@ -1,7 +1,7 @@
 <script src="{{ site.baseurl }}/assets/lib/jquery/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/easing/jquery.easing.min.js"></script>
-<!-- <script src="{{ site.baseurl }}/assets/lib/gdpr-cookie/gdpr-cookie.js"></script> -->
+<script src="{{ site.baseurl }}/assets/lib/gdpr-cookie/gdpr-cookie.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/simple-lightbox/simple-lightbox.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/simple-parallax/simpleParallax.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/waypoints/jquery.waypoints.min.js"></script>
@@ -20,3 +20,13 @@
     });
 </script>
 {% endif %}
+
+<script>
+    $(document).ready(function () {
+        if ($.gdprcookie.preference("marketing")) {
+            console.log("Marketing consent given");
+        } else {
+            console.log("Marketing consent NOT given");
+        }
+    });
+</script>
