@@ -31,6 +31,7 @@ plugins:
   - jekyll-include-cache
   - jekyll-paginate
   - jekyll-redirect-from
+  - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-tidy
 

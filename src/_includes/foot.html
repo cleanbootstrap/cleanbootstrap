@@ -1,9 +1,22 @@
 <script src="{{ site.baseurl }}/assets/lib/jquery/jquery.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/bootstrap/bootstrap.bundle.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/easing/jquery.easing.min.js"></script>
+<!-- <script src="{{ site.baseurl }}/assets/lib/gdpr-cookie/gdpr-cookie.js"></script> -->
 <script src="{{ site.baseurl }}/assets/lib/simple-lightbox/simple-lightbox.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/simple-parallax/simpleParallax.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/waypoints/jquery.waypoints.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/waypoints/shortcuts/sticky.min.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+
 <script src="{{ site.baseurl }}/assets/js/core.js"></script>
+
+{% if jekyll.environment == "production" %}
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+        google_ad_client: "ca-pub-5111860535134413",
+        enable_page_level_ads: true
+    });
+</script>
+{% endif %}

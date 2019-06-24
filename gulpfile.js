@@ -81,6 +81,13 @@ function modules() {
     '../../node_modules/jquery.easing/*.min.js'
   ]).pipe(gulp.dest('./src/assets/lib/easing'))
 
+  // JQuery GDPR Cookie
+  var lib_easing = gulp.src([
+    '../../node_modules/gdpr-cookie/LICENSE*',
+    '../../node_modules/gdpr-cookie/gdpr-cookie.css',
+    '../../node_modules/gdpr-cookie/gdpr-cookie.js'
+  ]).pipe(gulp.dest('./src/assets/lib/gdpr-cookie'))
+
   // Simplelightbox
   var lib_simplelightbox = gulp.src([
     '../../node_modules/simplelightbox/LICENSE*',

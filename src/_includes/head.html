@@ -20,7 +20,10 @@
 
 <title>{% if page.title %}{{ page.title }} - {% else %}{{ page.page-title }} -
     {% endif %}{% if layout.title %}{{ layout.title }} -
-    {% endif %}{{ site.description }}</title>
+    {% endif %}{{ site.title }}</title>
+
+<meta itemprop="description" name="description"
+    content="{% if page.description %}{{ page.description | truncate: 160 }}{% else %}{{ site.description | truncate: 160  }}{% endif %}" />
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet"
