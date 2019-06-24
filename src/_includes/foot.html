@@ -6,11 +6,7 @@
 <script src="{{ site.baseurl }}/assets/lib/simple-parallax/simpleParallax.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/waypoints/jquery.waypoints.min.js"></script>
 <script src="{{ site.baseurl }}/assets/lib/waypoints/shortcuts/sticky.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-
 <script src="{{ site.baseurl }}/assets/js/core.js"></script>
-
 {% if jekyll.environment == "production" %}
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <script>
@@ -21,6 +17,7 @@
 </script>
 {% endif %}
 
+{% if jekyll.environment == "development" %}
 <script>
     $(document).ready(function () {
         if ($.gdprcookie.preference("marketing")) {
@@ -30,3 +27,4 @@
         }
     });
 </script>
+{% endif %}
