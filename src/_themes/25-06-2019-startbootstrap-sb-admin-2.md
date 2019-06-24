@@ -9,12 +9,12 @@ meta-title: "SB Admin 2 - Free Bootstrap Admin Theme"
 meta-description: "A free Bootstrap admin theme, dashboard, or web application UI. All Start Bootstrap templates are free to download and open source."
 
 item:
-  preview: https://blackrockdigital.github.io/sb-admin-2/
-  download: https://github.com/BlackrockDigital/sb-admin-2/archive/gh-pages.zip
+  preview: https://blackrockdigital.github.io/startbootstrap-sb-admin-2/
+  download: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/archive/gh-pages.zip
 
 license:
   type: MIT License
-  url: https://github.com/BlackrockDigital/sb-admin-2/blob/master/LICENSE
+  url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/master/LICENSE
 
 author:
   name: BlackrockDigital
