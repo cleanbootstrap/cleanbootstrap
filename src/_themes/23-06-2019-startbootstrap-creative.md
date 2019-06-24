@@ -1,15 +1,25 @@
 ---
 layout: theme-details
-title:  Startbootstrap Creative
-page-title:  Startbootstrap Creative
+title:  Start Bootstrap Creative
 slug: startbootstrap-creative
+
+description:  "An attractive one page Bootstrap theme perfect for creative portfolios and businesses"
+meta-title: "Creative - One Page Bootstrap Theme"
+meta-description: "A free, multipurpose one page Bootstrap theme for creatives, businesses, and more. All Start Bootstrap templates are free to download and open source."
+
+item:
+  preview: https://blackrockdigital.github.io/startbootstrap-creative/
+  download: https://github.com/BlackrockDigital/startbootstrap-creative/archive/gh-pages.zip
+
+license:
+  type: MIT License
+  url: https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE
+
 author:
   name: BlackrockDigital
   github_user: BlackrockDigital
   github_repo: startbootstrap-creative
-description:  "An attractive one page Bootstrap theme perfect for creative portfolios and businesses"
-meta-title: "Creative - One Page Bootstrap Theme"
-meta-description: "A free, multipurpose one page Bootstrap theme for creatives, businesses, and more. All Start Bootstrap templates are free to download and open source."
+
 features:
   - A modern, flat design layout
   - UX friendly navigation with an on scroll style change

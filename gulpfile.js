@@ -13,7 +13,7 @@ const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const rtlcss = require('gulp-rtlcss');
 const uglify = require("gulp-uglify");
-const imagemin = require('gulp-imagemin');
+const image = require('gulp-image');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -213,13 +213,9 @@ function js() {
 
 function img() {
   gulp.src('./src/assets/img/**/*')
-    .pipe(imagemin([
-      imagemin.jpegtran({
-        interlaced: true,
-        progressive: true,
-        optimizationLevel: 9
-      })
-    ]))
+    .pipe(image({
+      jpegRecompress: ['--strip', '--quality', 'medium', '--min', 40, '--max', 80]
+    }))
     .pipe(gulp.dest('./src/assets/img/'))
 }
 

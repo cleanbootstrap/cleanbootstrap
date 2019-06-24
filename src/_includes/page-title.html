@@ -6,8 +6,8 @@
 					{% if include.icon %}
 					<i class="{{ include.icon }} page-title-icon"></i>
 					{% endif %}
-					{% if page.page-title %}
-					{{ include.title | default: page.title }}
+					{% if page.title %}
+					{{ page.title }}
 					{% else %}
 					{{ site.title }}
 					{% endif %}
