@@ -2,8 +2,9 @@
 layout: theme-details
 title:  Start Bootstrap Creative
 slug: startbootstrap-creative
-
+categories: landing-page portfolio business
 description:  "An attractive one page Bootstrap theme perfect for creative portfolios and businesses"
+slogan: "A one page creative theme"
 meta-title: "Creative - One Page Bootstrap Theme"
 meta-description: "A free, multipurpose one page Bootstrap theme for creatives, businesses, and more. All Start Bootstrap templates are free to download and open source."
 

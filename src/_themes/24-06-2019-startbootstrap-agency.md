@@ -4,7 +4,8 @@ title:  Start Bootstrap Agency
 slug: startbootstrap-agency
 categories: business portfolio landing-page
 description:  "A clean, stylish, one page Bootstrap portfolio theme perfect for your agency or small business"
-meta-title:       "Agency - One Page Bootstrap Theme"
+slogan: "A one page agency theme"
+meta-title: "Agency - One Page Bootstrap Theme"
 meta-description: "A free one page Bootstrap portfolio theme for agencies. All Start Bootstrap templates are free to download and open source."
 
 item:
