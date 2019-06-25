@@ -1,6 +1,5 @@
 ---
-layout: theme-details
-title:  Startbootstrap SB Admin 2
+title:  Start Bootstrap SB Admin 2
 slug: startbootstrap-sb-admin-2
 categories: admin
 description:  "A free Bootstrap 4 admin theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application"

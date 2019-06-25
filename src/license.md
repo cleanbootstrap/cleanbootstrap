@@ -3,6 +3,7 @@ layout: page
 page-title: License
 title: License
 description: Description
+permalink: license
 ---
 Cleanbootstrap is a global platform where you get clean bootstrap resources which can be used for personal & commercial purpose. All of these resources are developed by independent or third-party authors. We review all submissions manually and only approve high-quality items.
 

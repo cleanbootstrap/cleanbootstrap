@@ -18,6 +18,8 @@ exclude:
   - package.json
   - gulpfile.js
 
+permalink: pretty
+
 # Server
 url:               https://cleanbootstrap.com
 enforce_ssl:       cleanbootstrap.com
@@ -32,14 +34,31 @@ plugins:
   - jekyll-paginate
   - jekyll-redirect-from
   - jekyll-seo-tag
-  # - jekyll-sitemap
   - jekyll-tidy
 
 # Pagination
 paginate: 10
 paginate_path: "/blog/page:num/"
 
+# Collections
 collections:
   themes:
     output:        true
     permalink:     /:collection/:title
+
+  preview:
+    output:        true
+    permalink:     /:collection/:title
+
+# Collection Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "themes"
+    values:
+      layout: "theme-details"
+  - scope:
+      path: ""
+      type: "preview"
+    values:
+      layout: "preview"

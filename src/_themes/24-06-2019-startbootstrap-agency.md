@@ -1,5 +1,4 @@
 ---
-layout: theme-details
 title:  Start Bootstrap Agency
 slug: startbootstrap-agency
 categories: business portfolio landing-page

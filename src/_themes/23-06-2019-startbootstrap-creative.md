@@ -1,5 +1,4 @@
 ---
-layout: theme-details
 title:  Start Bootstrap Creative
 slug: startbootstrap-creative
 categories: landing-page portfolio business

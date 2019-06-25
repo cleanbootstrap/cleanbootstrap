@@ -2,6 +2,7 @@
 layout: page
 title: Terms of Service
 # description: Description
+permalink: terms
 ---
 
 # Cleanbootstrap - Terms of Service
