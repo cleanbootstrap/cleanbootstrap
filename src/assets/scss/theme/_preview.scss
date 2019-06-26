@@ -16,6 +16,12 @@
     border: none;
     margin-top: 55px;
   }
+
+  .iframe-preview-tablet {
+    width: 767px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   
   .iframe-preview-mobile {
     width: 375px;
