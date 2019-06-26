@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Terms of Service
-# description: Description
 permalink: terms
 ---
 

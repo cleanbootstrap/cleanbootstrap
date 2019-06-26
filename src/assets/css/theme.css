@@ -66,6 +66,46 @@
   margin-right: .25rem;
 }
 
+.preview-bar {
+  height: 55px;
+}
+
+.preview-bar .btn-sm,
+.preview-bar .small {
+  font-size: 0.8rem;
+}
+
+.preview-bar .btn-link {
+  text-decoration: none;
+}
+
+.iframe-preview {
+  position: absolute;
+  height: calc(100% - 55px);
+  width: 100%;
+  border: none;
+  margin-top: 55px;
+}
+
+.iframe-preview-mobile {
+  width: 375px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.border-bottom-primary {
+  border-bottom: 3px #2196F3 solid;
+}
+
+.responsive-toggler .nav-link {
+  color: #ced4da;
+}
+
+.responsive-toggler .nav-link.active {
+  color: #2196F3;
+}
+
 .ui-go-to {
   position: fixed;
   right: 25px;

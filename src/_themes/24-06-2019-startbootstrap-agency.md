@@ -1,6 +1,7 @@
 ---
 title:  Start Bootstrap Agency
 slug: startbootstrap-agency
+image: /assets/img/themes/blackrockdigital/startbootstrap-agency/startbootstrap-agency-preview.jpg
 categories: business portfolio landing-page
 description:  "A clean, stylish, one page Bootstrap portfolio theme perfect for your agency or small business"
 slogan: "A one page agency theme"
@@ -15,7 +16,7 @@ license:
   type: MIT License
   url: https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE
 
-author:
+theme-author:
   name: BlackrockDigital
   github_user: BlackrockDigital
   github_repo: startbootstrap-agency

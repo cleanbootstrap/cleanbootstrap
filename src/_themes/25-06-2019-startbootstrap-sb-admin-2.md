@@ -1,6 +1,7 @@
 ---
 title:  Start Bootstrap SB Admin 2
 slug: startbootstrap-sb-admin-2
+image: /assets/img/themes/blackrockdigital/startbootstrap-sb-admin-2/startbootstrap-sb-admin-2-preview.jpg
 categories: admin
 description:  "A free Bootstrap 4 admin theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application"
 slogan: "A free Bootstrap admin theme"
@@ -15,7 +16,7 @@ license:
   type: MIT License
   url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/master/LICENSE
 
-author:
+theme-author:
   name: BlackrockDigital
   github_user: BlackrockDigital
   github_repo: startbootstrap-sb-admin-2

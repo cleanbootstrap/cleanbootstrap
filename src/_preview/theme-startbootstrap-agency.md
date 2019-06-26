@@ -1,4 +1,4 @@
 ---
 title: startbootstrap-agency
-redirect_to: https://blackrockdigital.github.io/startbootstrap-agency/
+preview: https://blackrockdigital.github.io/startbootstrap-agency/
 ---
