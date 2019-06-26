@@ -1,6 +1,8 @@
 ---
 title:  Start Bootstrap Creative
 slug: startbootstrap-creative
+date:             2019-06-23T13:04:19+05:45
+last_modified_at: 2019-06-23T13:04:19+05:45
 image: /assets/img/themes/blackrockdigital/startbootstrap-creative/startbootstrap-creative-preview.jpg
 categories: landing-page portfolio business
 description:  "An attractive one page Bootstrap theme perfect for creative portfolios and businesses"

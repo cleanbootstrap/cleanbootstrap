@@ -1,6 +1,8 @@
 ---
 title:  Start Bootstrap Agency
 slug: startbootstrap-agency
+date:             2019-06-24T13:04:19+05:45
+last_modified_at: 2019-06-24T13:04:19+05:45
 image: /assets/img/themes/blackrockdigital/startbootstrap-agency/startbootstrap-agency-preview.jpg
 categories: business portfolio landing-page
 description:  "A clean, stylish, one page Bootstrap portfolio theme perfect for your agency or small business"
