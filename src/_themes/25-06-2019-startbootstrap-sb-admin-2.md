@@ -5,7 +5,7 @@ date:             2019-06-25T13:04:19+05:45
 last_modified_at: 2019-06-25T13:04:19+05:45
 image: /assets/img/themes/blackrockdigital/startbootstrap-sb-admin-2/startbootstrap-sb-admin-2-preview.jpg
 categories: admin
-description:  "A free Bootstrap 4 admin theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application"
+description: "A free Bootstrap 4 admin theme built with HTML/CSS and a modern development workflow environment ready to use to build your next dashboard or web application"
 slogan: "A free Bootstrap admin theme"
 meta-title: "SB Admin 2 - Free Bootstrap Admin Theme"
 meta-description: "A free Bootstrap admin theme, dashboard, or web application UI. All Start Bootstrap templates are free to download and open source."

@@ -10,7 +10,6 @@ slogan: "A one page creative theme"
 meta-title: "Creative - One Page Bootstrap Theme"
 meta-description: "A free, multipurpose one page Bootstrap theme for creatives, businesses, and more. All Start Bootstrap templates are free to download and open source."
 
-
 item:
   preview: https://blackrockdigital.github.io/startbootstrap-creative/
   download: https://github.com/BlackrockDigital/startbootstrap-creative/archive/gh-pages.zip
