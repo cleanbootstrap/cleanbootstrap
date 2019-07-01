@@ -53,8 +53,12 @@ function modules() {
   ]).pipe(gulp.dest('./src/assets/lib/tabler-ui'))
 
   var lib_tabler_scss = gulp.src([
-    '../../node_modules/tabler-ui/src/source/assets/scss/**/*'
+    '../../node_modules/tabler-ui/src/assets/scss/**/*'
   ]).pipe(gulp.dest('./src/assets/scss/tabler-ui'))
+
+  var lib_selectize = gulp.src([
+    '../../node_modules/tabler-ui/src/assets/js/vendors/selectize.min.js'
+  ]).pipe(gulp.dest('./src/assets/lib/selectize'))
 
   // Feather Icons
   var lib_feather = gulp.src([
@@ -82,7 +86,7 @@ function modules() {
   ]).pipe(gulp.dest('./src/assets/lib/easing'))
 
   // JQuery GDPR Cookie
-  var lib_easing = gulp.src([
+  var lib_gdpr_cookie = gulp.src([
     '../../node_modules/gdpr-cookie/LICENSE*',
     '../../node_modules/gdpr-cookie/gdpr-cookie.css',
     '../../node_modules/gdpr-cookie/gdpr-cookie.js'
@@ -119,11 +123,13 @@ function modules() {
     lib_bootstrap,
     lib_tabler,
     lib_tabler_scss,
+    lib_selectize,
     lib_fontawesome,
     lib_fontawesome_fonts,
     lib_feather,
     lib_feather_icons,
     lib_easing,
+    lib_gdpr_cookie,
     lib_simplelightbox,
     lib_waypoints,
     lib_waypoints_shortcuts
