@@ -79,6 +79,13 @@ function modules() {
     '../../node_modules/font-awesome/fonts/**/*'
   ]).pipe(gulp.dest('./src/assets/lib/font-awesome/fonts'))
 
+  // Easy MDE
+  var lib_easymde = gulp.src([
+    '../../node_modules/easymde/LICENSE*',
+    '../../node_modules/easymde/dist/*.min.css',
+    '../../node_modules/easymde/dist/*.min.js'
+  ]).pipe(gulp.dest('./src/assets/lib/easymde'))
+
   // JQuery Easing
   var lib_easing = gulp.src([
     '../../node_modules/jquery.easing/LICENSE*',
@@ -129,6 +136,7 @@ function modules() {
     lib_feather,
     lib_feather_icons,
     lib_easing,
+    lib_easymde,
     lib_gdpr_cookie,
     lib_simplelightbox,
     lib_waypoints,
