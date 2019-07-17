@@ -11,7 +11,7 @@
             <div class="row align-items-center justify-content-between h-100">
                 <div class="col">
                     <i class="fa fa-hand-o-left"></i>
-                    <a class="font-weight-bold text-dark" href="{{ site.baseurl }}/themes/{{ page.title }}">Return to
+                    <a class="font-weight-bold text-dark" href="{{ site.baseurl }}/themes/{{ page.slug }}">Return to
                         Article</a>
                 </div>
                 <div class="col d-none d-lg-block">
@@ -37,9 +37,10 @@
                     </ul>
                 </div>
                 <div class="col text-right">
-                    <a href="{{ page.item.download }}" class="btn btn-primary btn-sm mr-2 d-none d-md-inline-block">Free
+                    <a href="{{ page.item.download_url }}"
+                        class="btn btn-primary btn-sm mr-2 d-none d-md-inline-block">Free
                         Download</a>
-                    <a href="{{ page.item.preview }}" class="btn btn-link btn-sm" target="_blank"><i
+                    <a href="{{ page.item.preview_url }}" class="btn btn-link btn-sm" target="_blank"><i
                             class="fa fa-times mr-1"></i>Remove
                         Frame</a>
                 </div>
@@ -47,7 +48,7 @@
         </div>
     </div>
 
-    <iframe class="iframe-preview" width="100%" src="{{ page.item.preview }}"></iframe>
+    <iframe class="iframe-preview" width="100%" src="{{ page.item.preview_url }}"></iframe>
 
     {% include foot.html %}
 

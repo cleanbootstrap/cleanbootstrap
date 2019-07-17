@@ -7,7 +7,7 @@ post-type: theme
         <div class="col-lg-8">
             <div class="card shadow">
                 <img class="card-img-top"
-                    src="{{ site.baseurl }}/assets/img/themes/{{ page.theme-author.github_user | escape }}/{{ page.theme-author.github_repo | escape }}/{{ page.theme-author.github_repo | escape }}-preview.jpg"
+                    src="{{ site.baseurl }}/assets/img/themes/{{ page.theme-author.slug | escape }}/{{ page.slug | escape }}/{{ page.slug | escape }}-preview.jpg"
                     alt="{{ page.title | escape}}">
                 <div class="card-body d-flex flex-column">
                     {{ page.content }}
@@ -22,7 +22,7 @@ post-type: theme
             </div>
             <div class="card shadow">
                 <img class="card-img-top"
-                    src="{{ site.baseurl }}/assets/img/themes/{{ page.theme-author.github_user | escape }}/{{ page.theme-author.github_repo | escape }}/{{ page.theme-author.github_repo | escape }}-screenshot.jpg"
+                    src="{{ site.baseurl }}/assets/img/themes/{{ page.theme-author.slug | escape }}/{{ page.slug | escape }}/{{ page.slug | escape }}-screenshot.jpg"
                     alt="{{ page.title | escape}}">
             </div>
         </div>
@@ -45,11 +45,10 @@ post-type: theme
                         class="btn btn-block btn-dark bg-green-darkest mt-5" target="_blank">
                         <i class="fa fa-desktop mr-2"></i>Preview
                     </a>
-                    <a href="{{ page.item.download }}" class="btn btn-block btn-secondary" target="_blank">
+                    <a href="{{ page.item.download_url }}" class="btn btn-block btn-secondary" target="_blank">
                         <i class="fe fe-download mr-2"></i>Download Now
                     </a>
-                    <a href="https://github.com/{{ page.theme-author.github_user | escape }}/{{ page.theme-author.github_repo | escape }}"
-                        class="btn btn-block btn-dark" target="_blank">
+                    <a href="{{ page.item.github_repo }}" class="btn btn-block btn-dark" target="_blank">
                         <i class="fe fe-github mr-2"></i>View on GitHub
                     </a>
                 </div>

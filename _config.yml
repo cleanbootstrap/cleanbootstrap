@@ -45,11 +45,11 @@ paginate_path: "/blog/page:num/"
 collections:
   themes:
     output:        true
-    permalink:     /:collection/:title
+    permalink:     /:collection/:slug
 
   preview:
     output:        true
-    permalink:     /:collection/:title
+    permalink:     /:collection/theme-:slug
 
 # Collection Defaults
 defaults:

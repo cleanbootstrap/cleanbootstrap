@@ -1,6 +1,6 @@
 ---
-title: startbootstrap-creative
+slug: startbootstrap-creative
 item:
-  preview: https://blackrockdigital.github.io/startbootstrap-creative/
-  download: https://github.com/BlackrockDigital/startbootstrap-creative/archive/gh-pages.zip
+ preview_url: https://blackrockdigital.github.io/startbootstrap-creative/
+ download_url: https://github.com/BlackrockDigital/startbootstrap-creative/archive/gh-pages.zip
 ---
