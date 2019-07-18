@@ -18,9 +18,11 @@
 <link href="{{ site.baseurl }}/assets/css/style{% if page.rtl %}.rtl{% endif %}.css" rel="stylesheet" />
 <link href="{{ site.baseurl }}/assets/css/theme{% if page.rtl %}.rtl{% endif %}.css" rel="stylesheet" />
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+{% if jekyll.environment == "production" %}
 <script>
     (adsbygoogle = window.adsbygoogle || []).push({
         google_ad_client: "ca-pub-5111860535134413",
         enable_page_level_ads: true
     });
 </script>
+{% endif %}

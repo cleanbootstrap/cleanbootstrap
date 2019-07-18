@@ -9,15 +9,29 @@ post-type: theme
                 <img class="card-img-top"
                     src="{{ site.baseurl }}/assets/img/themes/{{ page.theme-author.slug | escape }}/{{ page.slug | escape }}/{{ page.slug | escape }}-preview.jpg"
                     alt="{{ page.title | escape}}">
-                <div class="card-body d-flex flex-column">
+                <div class="card-body">
+                    <div class="item-categories text-center mb-4">
+                        {% for category in page.category %}
+                        <span class="btn btn-dark btn-sm"><a href="{{ site.baseurl }}/category/{{ category }}"
+                                class="text-light">{{ category }}</a></span>
+                        {% endfor %}
+                    </div>
+
+                    <h2 class="text-center">{{ page.title }}</h2>
                     {{ page.content }}
 
                     <h5 class="mb-0">Features</h5>
-                    <ul class="mb-0">
+                    <ul>
                         {% for feature in page.features %}
                         <li>{{ feature }}</li>
                         {% endfor %}
                     </ul>
+
+                    <span class="small mr-2">Tags:</span>
+                    {% for tag in page.tag %}
+                    <span class="btn btn-secondary btn-sm"><a href="{{ site.baseurl }}/tag/{{ tag }}"
+                            class="text-dark">{{ tag }}</a></span>
+                    {% endfor %}
                 </div>
             </div>
             <div class="card shadow">

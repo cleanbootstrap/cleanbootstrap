@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<div class="container">
+    <div class="row row-cards row-deck">
+        {% for theme in site.themes %}
+        {% for c in theme.tag %}
+        {% if c == page.slug %}
+        {% include parts/theme-list-loop.html %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+    </div>
+</div>

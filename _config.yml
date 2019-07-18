@@ -51,6 +51,14 @@ collections:
     output:        true
     permalink:     /:collection/theme-:slug
 
+  category:
+    output:        true
+    permalink:     /:collection/:slug
+
+  tag:
+    output:        true
+    permalink:     /:collection/:slug
+
 # Collection Defaults
 defaults:
   - scope:
@@ -63,3 +71,13 @@ defaults:
       type: "preview"
     values:
       layout: "preview"
+  - scope:
+      path: ""
+      type: "category"
+    values:
+      layout: "category"
+  - scope:
+      path: ""
+      type: "tag"
+    values:
+      layout: "tag"
