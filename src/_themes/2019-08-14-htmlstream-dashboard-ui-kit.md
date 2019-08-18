@@ -2,7 +2,7 @@
 title: Stream - Dashboard UI Kit
 slug: htmlstream-dashboard-ui-kit
 date: 2019-08-14T21:57:33
-last_modified_at: 2019-08-18T23:22:29
+last_modified_at: 2019-08-18T23:32:46
 image: /assets/img/themes/htmlstream/htmlstream-dashboard-ui-kit/htmlstream-dashboard-ui-kit-preview.jpg
 category:
  - html
@@ -25,24 +25,24 @@ theme-author:
  github_user: htmlstream
 publisher: cleanbootstrap
 features:
- Moden Design
- Fully Responsive
- SASS
- BEM
- Gulp
- Pie Charts
- Area Charts
- Custom Scrollbar
- Fixed Sidebar
- Sidebar Mini
- Show/Hide Sidebar
- Profile
- Beautiful Widgets
- Account Pages
- Quality code
- Reusable Components
- Beautiful 404 & 500 Error Pages
- Free Logo & Images
- Font Awesome Icons
+ - Moden Design
+ - Fully Responsive
+ - SASS
+ - BEM
+ - Gulp
+ - Pie Charts
+ - Area Charts
+ - Custom Scrollbar
+ - Fixed Sidebar
+ - Sidebar Mini
+ - Show/Hide Sidebar
+ - Profile
+ - Beautiful Widgets
+ - Account Pages
+ - Quality code
+ - Reusable Components
+ - Beautiful 404 & 500 Error Pages
+ - Free Logo & Images
+ - Font Awesome Icons
 ---
 Stream Dashboard UI Kit is beautiful Open Source Bootstrap 4 Dashboard UI Kit under MIT license. The UI Kit comes with 19 beautiful complete pages and includes over 50 reusable and customizable UI Components. At the same time It’s super lightweight and only 24kb when minified.

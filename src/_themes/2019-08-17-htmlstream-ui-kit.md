@@ -2,7 +2,7 @@
 title: Stream - UI Kit
 slug: htmlstream-ui-kit
 date: 2019-08-17T22:47:47
-last_modified_at: 2019-08-18T23:23:27
+last_modified_at: 2019-08-18T23:33:33
 image: /assets/img/themes/htmlstream/htmlstream-ui-kit/htmlstream-ui-kit-preview.jpg
 category:
  - html
@@ -27,4 +27,4 @@ publisher: cleanbootstrap
 features:
 
 ---
-Stream UI Kit is beautiful Open Source Bootstrap 4 UI Kit under MIT license. The UI Kit comes with 5 beautiful complete pages and includes over 20 reusable and customizable UI Blocks. It’s lightweight and only ~17kb when minified.
+Stream UI Kit is beautiful Open Source Bootstrap 4 UI Kit under MIT license. The UI Kit comes with 5 beautiful complete pages and includes over 20 reusable and customizable UI Blocks. It’s lightweight and only 17kb when minified.
