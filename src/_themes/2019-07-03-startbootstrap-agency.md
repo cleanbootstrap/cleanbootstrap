@@ -4,7 +4,7 @@ slug: startbootstrap-agency
 date: 2019-07-03T03:52:52
 last_modified_at: 2019-07-17T03:01:12
 image: /assets/img/themes/blackrockdigital/startbootstrap-agency/startbootstrap-agency-preview.jpg
-category: 
+category:
  - html
 tag:
  - landing-page
