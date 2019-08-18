@@ -15,7 +15,7 @@ meta-description: "Awesome Dashboard UI Kit is a beautiful Open Source Bootstrap
 item:
  preview_url: https://htmlstream.com/preview/awesome-dashboard-ui-kit/
  download_url: https://github.com/htmlstreamofficial/awesome-dashboard-ui-kit/archive/master.zip
- github_url: https://github.com/htmlstreamofficial/awesome-dashboard-ui-kit/archive/master.zip
+ github_url: https://github.com/htmlstreamofficial/awesome-dashboard-ui-kit/
 license:
  type: MIT
  url: https://github.com/htmlstreamofficial/awesome-dashboard-ui-kit/blob/master/LICENSE

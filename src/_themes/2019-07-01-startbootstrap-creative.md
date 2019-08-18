@@ -18,7 +18,7 @@ meta-description: "A free, multipurpose one page Bootstrap theme for creatives, 
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-creative/
  download_url: https://github.com/BlackrockDigital/startbootstrap-creative/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-creative/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-creative
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-creative/blob/master/LICENSE

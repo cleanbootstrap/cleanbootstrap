@@ -15,7 +15,7 @@ meta-description: "Stream Dashboard UI Kit - A beautiful Open Source Bootstrap 4
 item:
  preview_url: https://htmlstream.com/preview/stream-dashboard-ui-kit/index.html
  download_url: https://github.com/htmlstreamofficial/stream-dashboard-ui-kit/archive/master.zip
- github_url: https://github.com/htmlstreamofficial/stream-dashboard-ui-kit/archive/master.zip
+ github_url: https://github.com/htmlstreamofficial/stream-dashboard-ui-kit/
 license:
  type: MIT
  url: https://github.com/htmlstreamofficial/stream-dashboard-ui-kit/blob/master/LICENSE

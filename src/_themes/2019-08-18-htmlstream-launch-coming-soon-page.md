@@ -15,7 +15,7 @@ meta-description: "Launch is free Coming Soon Page based on Bootstrap 4 and lice
 item:
  preview_url: https://htmlstream.com/preview/launch-coming-soon-page/
  download_url: https://github.com/htmlstreamofficial/launch-coming-soon-page/archive/master.zip
- github_url: https://github.com/htmlstreamofficial/launch-coming-soon-page/archive/master.zip
+ github_url: https://github.com/htmlstreamofficial/launch-coming-soon-page/
 license:
  type: MIT
  url: https://github.com/htmlstreamofficial/launch-coming-soon-page/blob/master/LICENSE

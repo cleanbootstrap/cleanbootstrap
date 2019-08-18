@@ -15,7 +15,7 @@ meta-description: "Docs UI Kit - A beautiful Open Source Bootstrap 4 UI Kit unde
 item:
  preview_url: https://htmlstream.com/preview/docs-ui-kit/index.html
  download_url: https://github.com/htmlstreamofficial/docs-ui-kit/archive/master.zip
- github_url: https://github.com/htmlstreamofficial/docs-ui-kit/archive/master.zip
+ github_url: https://github.com/htmlstreamofficial/docs-ui-kit/
 license:
  type: MIT
  url: https://github.com/htmlstreamofficial/docs-ui-kit/blob/master/LICENSE

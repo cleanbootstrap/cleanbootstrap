@@ -15,7 +15,7 @@ meta-description: "Stream - UI Kit. A beautiful Open Source Bootstrap 4 UI Kit u
 item:
  preview_url: https://htmlstream.com/preview/stream-ui-kit/
  download_url: https://github.com/htmlstreamofficial/stream-ui-kit/archive/master.zip
- github_url: https://github.com/htmlstreamofficial/stream-ui-kit/archive/master.zip
+ github_url: https://github.com/htmlstreamofficial/stream-ui-kit/
 license:
  type: MIT
  url: https://github.com/htmlstreamofficial/stream-ui-kit/blob/master/LICENSE

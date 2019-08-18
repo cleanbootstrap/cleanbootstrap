@@ -15,7 +15,7 @@ meta-description: "A responsive Bootstrap 4 landing page theme by Start Bootstra
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-landing-page/
  download_url: https://github.com/BlackrockDigital/startbootstrap-landing-page/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-landing-page/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-landing-page
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE

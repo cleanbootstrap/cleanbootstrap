@@ -17,7 +17,7 @@ meta-description: "A free one page Bootstrap portfolio theme for agencies. All S
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-agency/
  download_url: https://github.com/BlackrockDigital/startbootstrap-agency/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-agency/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-agency
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE

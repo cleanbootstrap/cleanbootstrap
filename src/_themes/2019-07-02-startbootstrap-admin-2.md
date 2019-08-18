@@ -15,7 +15,7 @@ meta-description: "A free Bootstrap admin theme, dashboard, or web application U
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-sb-admin-2/
  download_url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/master/LICENSE
