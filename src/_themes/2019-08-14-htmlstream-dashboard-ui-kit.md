@@ -45,4 +45,4 @@ features:
  - Free Logo & Images
  - Font Awesome Icons
 ---
-Stream Dashboard UI Kit is beautiful Open Source Bootstrap 4 Dashboard UI Kit under MIT license. The UI Kit comes with 19 beautiful complete pages and includes over 50 reusable and customizable UI Components. At the same time It’s super lightweight and only 24kb when minified.
+Stream Dashboard UI Kit is beautiful Open Source Bootstrap 4 Dashboard UI Kit under MIT license. The UI Kit comes with 19 beautiful complete pages and includes over 50 reusable and customizable UI Components. At the same time It's super lightweight and only 24kb when minified.
