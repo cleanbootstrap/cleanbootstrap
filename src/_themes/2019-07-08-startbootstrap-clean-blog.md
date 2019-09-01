@@ -15,7 +15,7 @@ meta-description: "A free Bootstrap blog theme perfect for personal blogs. All S
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-clean-blog/
  download_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-clean-blog
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/master/LICENSE

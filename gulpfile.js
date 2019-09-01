@@ -240,11 +240,24 @@ function img() {
     .pipe(gulp.dest('./src/assets/img/'))
 }
 
+function img_raw() {
+  gulp.src('./download/*')
+    .pipe(image({
+      jpegRecompress: ['--strip', '--quality', 'medium', '--min', 40, '--max', 80]
+    }))
+    .pipe(gulp.dest('./download/compressed'))
+}
+
 // Watch files
 function watchFiles() {
   gulp.watch("./src/assets/scss/**/*", gulp.parallel(style_theme, style_tabler_ui));
   // gulp.watch("./src/assets/js/**/*", js);
   // gulp.watch("./src/**/*.html", browserSyncReload);
+}
+
+// Watch img downloaded
+function watchImg() {
+  gulp.watch("./download", gulp.parallel(img_raw));
 }
 
 // gulp.task("default", gulp.parallel('vendor'));
@@ -264,8 +277,10 @@ exports.styles = styles;
 exports.css = css;
 exports.js = js;
 exports.img = img;
+exports.img_raw = img_raw;
 exports.clean = clean;
 exports.vendor = vendor;
 exports.build = build;
 exports.watch_files = watch_files;
+exports.watchImg = watchImg
 exports.default = build;

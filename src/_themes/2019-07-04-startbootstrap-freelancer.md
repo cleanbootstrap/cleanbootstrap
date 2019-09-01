@@ -16,7 +16,7 @@ meta-description: "A free one page Bootstrap portfolio theme for freelancers. Al
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-freelancer/
  download_url: https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-freelancer/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-freelancer
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/master/LICENSE

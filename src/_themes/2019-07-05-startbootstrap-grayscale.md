@@ -16,7 +16,7 @@ meta-description: "Grayscale is a free Bootstrap theme with a dark color scheme,
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-grayscale/
  download_url: https://github.com/BlackrockDigital/startbootstrap-grayscale/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-grayscale/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-grayscale
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE

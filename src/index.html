@@ -5,7 +5,7 @@ title: Clean Bootstrap
 
 <div class="container">
     <div class="row row-cards row-deck">
-        {% for theme in site.themes limit: 10 %}
+        {% for theme in site.themes limit: 100 %}
         {% include parts/theme-list-loop.html %}
         {% endfor %}
     </div>

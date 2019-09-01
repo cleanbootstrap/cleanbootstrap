@@ -16,7 +16,7 @@ meta-description: "A free Bootstrap portfolio theme with off canvas navigation a
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-stylish-portfolio/
  download_url: https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE

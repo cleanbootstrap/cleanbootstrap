@@ -15,7 +15,7 @@ meta-description: "A free Bootstrap resume and CV theme for building stylish web
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-resume/
  download_url: https://github.com/BlackrockDigital/startbootstrap-resume/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-resume/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-resume
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE

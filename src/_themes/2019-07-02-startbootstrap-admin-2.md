@@ -1,9 +1,9 @@
 ---
 title: Start Bootstrap Admin 2
-slug: startbootstrap-sb-admin-2
+slug: startbootstrap-admin-2
 date: 2019-07-02T03:36:22
 last_modified_at: 2019-07-17T00:42:13
-image: /assets/img/themes/blackrockdigital/startbootstrap-sb-admin-2/startbootstrap-sb-admin-2-preview.jpg
+image: /assets/img/themes/blackrockdigital/startbootstrap-admin-2/startbootstrap-admin-2-preview.jpg
 category:
  - html
 tag:
@@ -15,7 +15,7 @@ meta-description: "A free Bootstrap admin theme, dashboard, or web application U
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-sb-admin-2/
  download_url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/blob/master/LICENSE

@@ -16,7 +16,7 @@ meta-description: "A free Bootstrap landing page theme for apps, businesses, and
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-new-age/
  download_url: https://github.com/BlackrockDigital/startbootstrap-new-age/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-new-age/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-new-age
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE

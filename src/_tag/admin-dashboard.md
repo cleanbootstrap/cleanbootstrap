@@ -1,5 +1,5 @@
 ---
 name: Admin & Dashboard
 slug: admin-dashboard
-count: 1
+count: 4
 ---

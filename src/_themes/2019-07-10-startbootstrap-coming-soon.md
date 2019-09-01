@@ -16,7 +16,7 @@ meta-description: "A free Bootstrap portfolio theme with off canvas navigation a
 item:
  preview_url: https://blackrockdigital.github.io/startbootstrap-coming-soon/
  download_url: https://github.com/BlackrockDigital/startbootstrap-coming-soon/archive/gh-pages.zip
- github_url: https://github.com/BlackrockDigital/startbootstrap-coming-soon/archive/gh-pages.zip
+ github_url: https://github.com/BlackrockDigital/startbootstrap-coming-soon
 license:
  type: MIT
  url: https://github.com/BlackrockDigital/startbootstrap-coming-soon/blob/master/LICENSE
